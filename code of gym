@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROTHER'S-GYM | Home</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.2s;
+            border-radius: 4px;
+        }
+
+        nav ul li a:hover {
+            background-color: #444;
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-image: url('gym_hero.jpg');
+            background-size: cover;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        /* About section styles */
+        .about {
+            background-color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Call to Action styles */
+        .cta {
+            background-color: #222;
+            color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .hero {
+                height: 400px;
+            }
+
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+
+            .about h2 {
+                font-size: 2.5rem;
+            }
+
+            .about p {
+                font-size: 1.1rem;
+            }
+
+            .cta h2 {
+                font-size: 2.5rem;
+            }
+
+            .cta p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BROTHER'S-GYM</h1>
+        <p>Your path to a healthier lifestyle</p>
+        <p>make your future healty and bright</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Trainers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero" style="background-color: greenyellow;">
+        <div style="background-color: red;">
+            <h2>Welcome to our GYM</h2>
+            <p>Get fit and stay healthy with our state-of-the-art facilities and professional trainers.</p>
+        </div>
+    </div>
+    <div class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, urna ac hendrerit feugiat, nisl ipsum aliquet turpis, ac egestas lectus justo eu mi.</p>
+        <P>All eqipments for gym is availabe</P>
+        <p> At Gym and Fitness, we believe that fitness and wellbeing are the cornerstones of a full and vibrant life. Established in 2002, we began our journey as a family-owned business dedicated to providing exceptional gym equipment at affordable prices. But, we dreamed bigger than just being an ordinary fitness equipment supplier; we aspired to lead the industry.
+
+            Two decades later, we are proud to have transformed Gym and Fitness into one of Australia's premier online retailers of fitness equipment. We've moved beyond just supplying gear – we've become advocates for fitness, wellbeing and life enrichment. Our commitment to excellence is reflected not only in the quality equipment we provide but also in the lives we've improved.
+            
+            Our real success lies in the thousands of customers we've empowered to live longer, more joyful, and healthier lives. We're more than just a fitness company – we're your partners in health, your cheerleaders on the sideline, motivating you to reach your personal fitness goals. Embrace the fitness journey with us and see how it transforms your world.
+            
+            Join us in our mission to improve lives through fitness and wellness, because at Gym and Fitness, your health is our passion.
+            
+             </p>
+        <p> contact us: xyz@gmail.com;
+            phone:990xxxx562
+        </p>
+            
+    </div>
+    <div class="cta">
+        <h2>Join us today</h2>
+        <p>Take the first step towards a healthier and fitter you. Sign up for our classes now!</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 GYM. All rights reserved.</p>
+    </footer>
+</body>
+</html>
